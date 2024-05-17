@@ -1,0 +1,454 @@
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    
+  
+
+
+.mainhead{
+    width: 100%;
+    height: 100px;
+    display: flex; /*alligns the text in the main head(doesn't let it come out to the body)*/
+    background: repeating-linear-gradient(135deg,
+    rgb(29,29,29), 
+     rgb(39, 38, 38) 7%,
+       black 7%,
+       black 7.09%);
+}
+
+
+
+
+/*THE NEWS HIVE BOX*/
+
+
+.headp{
+    
+  color: white;
+  align-items: start;
+ position: absolute;
+ left: 40px;
+  margin-top: 16px;
+  letter-spacing: -2.5px;/*to bring the letters closely*/
+
+}
+
+.big{
+    font-size: 60px;
+}
+
+.small{
+    font-size: 40px;
+}
+
+
+
+/*ABOUT DETAILS(home,..)*/
+
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(254, 255, 252);
+   
+}
+
+.search{
+    color: black;
+    display: inline;
+    margin-left: 87%;/*aligns position from right , but make sure you wrote position - absolute */
+}
+
+.infobar{
+    position: absolute;
+    left: 3%;
+    display: flex;
+}
+
+.info1{
+    height: 40px;
+background-color: black;
+color: rgb(216, 212, 212);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size: 0.8rem;
+margin-right: 5.5%;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.info2{
+    display: flex;
+    color: rgb(72, 72, 72);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-right: 5.5%;/*spaces between each info*/
+}
+
+.info2:hover{
+    height: 40px;
+    background-color: black;
+    color: rgb(217, 214, 214);
+    padding-left: 8px;
+padding-right: 8px;
+}
+
+
+
+/*HEADLINES (breaking news....)*/
+
+.headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 35px;
+    background-color: rgb(241, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.powericon{
+    position: absolute;
+    left: 40px;
+    display: inline;
+    color: black;
+   
+}
+
+.headline1{
+   position: absolute;
+   left: 68px;
+    font-size: 0.8rem;
+    display: inline;
+    color: black;
+    
+}
+
+.headline2{
+    display: inline;
+    position: absolute;
+    left: 240px;
+    font-size: 0.79rem;
+    color: rgb(97, 97, 97);
+}
+
+.weathericon{
+    margin-left: 80%;
+     display: inline;
+     color: black;
+ }
+
+.time{
+    display: inline;
+    margin-left: -2%;
+    font-size: 0.7rem;
+    color: rgb(13, 13, 13);
+}
+
+
+
+/*THE WHOLE BOX*/
+
+.bigbox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    
+    width: fit-content;
+    background-color: rgb(254, 255, 252);
+}
+
+.box{
+    display: flex;
+    
+ 
+}
+
+.box1{ 
+    margin-top: 35px;
+    height: 380px;
+    width:410px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+     border-radius: 3.6px;
+     box-shadow: 0px -150px 15px rgba(0, 0, 0, 0.3) inset;
+     
+     
+}
+
+.box1pp{
+    margin-left: 45px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 251, 251);
+    }
+    
+    .box1theme{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 45px;
+        color: white;
+        font-size: 0.7rem;
+    }
+    
+
+
+
+.box2{margin-top: 35px;
+    margin-left: 20px;
+    height: 380px;
+    width:210px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+     border-radius: 3.6px;
+     box-shadow: 0px -150px 15px rgba(0, 0, 0, 0.3) inset;
+}
+
+.box2pp{
+    margin-left: 21px;
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 251, 251);
+    }
+    
+    .box2theme{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 20px;
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    .box2theme2{    
+        margin-top: 7px;       
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 20px;
+            color: white;
+            font-size: 0.7rem;
+        }
+        
+
+.boxv{
+    margin-left: 15px;
+    width: 200px;
+   display: flex;
+   flex-direction: column;/*aligns items vertically, make sure kelpt display flex*/
+}
+
+.boxvpp{
+    margin-left: 21px;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 251, 251);
+    }
+    
+    .boxvtheme{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 20px;
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    .boxvtheme2{    
+        margin-top: 7px;       
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: 20px;
+            color: white;
+            font-size: 0.7rem;
+        }
+
+.box3{margin-top: 35px;
+    height: 182.5px;
+    width: 220px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+     border-radius: 3.6px;
+     box-shadow: 0px -200px 15px rgba(0, 0, 0, 0.3) inset;
+    
+}
+
+.box4{
+    margin-top: 15px;
+    height: 182.5px;
+    width: 220px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+     border-radius: 3.6px;
+     box-shadow: 0px -200px 15px rgba(0, 0, 0, 0.3) inset;
+    
+}
+
+
+
+/*DETAILS IN THE BOXES START HERE*/
+
+
+.featurebox1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 210px;
+    margin-left: 45px;
+}
+
+.featurebox2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 210px;
+    margin-left: 20px;
+}
+
+.featurebox3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.featurebox4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.fb1, .fb2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+    height: 20px;
+    width: auto;
+    border: 0.3px solid black;
+    background-color: black;
+    border-radius: 16px;
+    color: rgb(169, 168, 168);
+    font-style:normal;
+    display: flex;
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+/*THE LAST RIGHT BOX*/
+
+.detailbox{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 35px;
+    margin-left: 60px;
+    display: flex;
+ flex-direction: column;
+}
+
+.updates{
+    display: flex;
+    
+}
+
+.b1, .b2{
+   
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+font-size: 0.9rem;
+color: rgb(115, 112, 112);
+}
+
+.b1{
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.b2{border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+.b2:active{
+    background-color: black; 
+}
+
+.detbox{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detbox1, .detbox2, .detbox3, .detbox4{
+    height: 80px;
+    width: 300px;
+    margin: 5px ;
+   background-color: white;
+   border-radius: 8px;
+}
+
+.boxdtheme2{
+    color: rgb(56, 57, 56);
+    display: flex;
+    margin-top:10px;
+    margin-left: 80px;
+    font-size: 0.7rem;
+  }
+
+  .detpp1{
+    color: black;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin-left:80px ;
+    margin-top: 6px;
+  }
+
+.imgdet{
+   margin-top: -70px;
+    margin-left: 4px;
+    height: 69px;
+    width: 70px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+     border-radius: 3.6px;
+}
+
+.boxlogo{
+
+    height: 26px;
+    width: 26px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-size:cover;/*lets the image fit in the box*/
+    background-position: center;/*lets the image positioned at center*/
+}
+
+
+
+    
+      
+    
